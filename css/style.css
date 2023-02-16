@@ -1,0 +1,63 @@
+.tabla {
+    background-color: white;
+    text-align: center;
+    width: 500px;
+    border-collapse: collapse;
+}
+
+.formulario{
+    background-color: #24303c;
+    border-radius: 3px;
+    color: #999;
+    font-size: 0.8em;
+    padding: 10px;
+    margin: 0 auto;
+    width: 400px;
+}
+
+th,td{
+    padding: 20px;
+}
+
+thead{
+    background-color: #246355;
+    border-bottom: solid 5px #0F362D;
+    color: white;
+}
+
+tr:nth-child(even){
+    background-color: #ddd;
+}
+
+tr:hover td{
+    background-color: #369681;
+    color: white;
+}
+
+.eliminar:hover{
+    background-color: red;
+}
+
+.contenedor {
+    height: 100vh;
+    width: 70rw;
+    display: grid;
+    place-items: center;
+    place-items: center;
+    /* background-image: linear-gradient(135deg, red, blue); */
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(30deg, crimson, sienna, royalblue, indianred, purple);
+}
+
+.button {
+    margin-top: 15px;
+    border-color: #0000FF;
+    background-color: white;
+    border-radius: 4px;
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: #0000FF;
+    color: white;
+}
